@@ -91,11 +91,13 @@
 .about-me-content {
 margin-left: 200px;
 margin-top: 150px;
+max-width: 100%;
 
 }
 
 .about-me img {
 width: 350px;
+max-width: 100%;
 border-radius: 50%;
 float: right;
 margin-right: 200px;
