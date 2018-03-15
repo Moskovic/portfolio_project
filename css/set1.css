@@ -13,7 +13,7 @@
 	text-align: center;
 }
 
-/* Common style */
+
 .grid figure {
 	position: relative;
 	float: left;
@@ -59,8 +59,7 @@
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
+
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -105,11 +104,7 @@ margin-bottom: 150px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-/* Individual effects */
 
-/*---------------*/
-/***** Lily *****/
-/*---------------*/
 
 figure.effect-lily img {
 	max-width: none;
