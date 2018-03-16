@@ -6,7 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Marius PITTIE - Graphic Design</title>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/main.css">
 		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/jquery.lettering.js"></script>
 		<link rel="stylesheet" href="styles/colorbox.css">
 		<script src="scripts/jquery.colorbox.js"></script>
 		<script src="scripts/jquery.colorbox-min.js"></script>
@@ -14,15 +16,12 @@
 		<link rel="stylesheet" type="text/css" href="styles/demo.css" />
 		<link rel="stylesheet" type="text/css" href="styles/main.css" />
 
-
-
-
-
-	</head>
+</head>
 	<body>
 
 			<header class="main-header">
-				<h1>Marius PITTIE<span>Graphic Design</span></h1>
+				<h1>Marius PITTIE</h1>
+				<h1 id="fancy_title">Graphic Design</h1>
 				<nav class="topper-links">
 					<a class="current-topper-links" href="index.html">Portfolio</a>
 					<a href="about.html">About me</a>
@@ -81,13 +80,13 @@
 				<a class="topper-links" href="index.html">Top of the page</a>
 			</nav>
 </div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#fancy_title").lettering();
+	});
+	jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1'});
+	</script>
 
-<script>
-			$(document).ready(function() {
-				$(".fancy_title").lettering();
-			});
-				jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1'});
-</script>
 
 
 
