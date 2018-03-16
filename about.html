@@ -5,18 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Marius PITTIE - Graphic Design</title>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/main.css">
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/jquery.lettering.js"></script>
+		<link rel="stylesheet" href="styles/colorbox.css">
+		<script src="scripts/jquery.colorbox.js"></script>
+		<script src="scripts/jquery.colorbox-min.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles/reset.css" />
 		<link rel="stylesheet" type="text/css" href="styles/demo.css" />
 		<link rel="stylesheet" type="text/css" href="styles/main.css" />
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-		<script src="jquery.min.js"></script>
-<script src="jquery.colorbox-min.js"></script>
 
 	</head>
 	<body>
 		<header class="main-header">
-			<h1>Marius PITTIE<span>Graphic Design</span></h1>
+			<h1>Marius PITTIE</h1>
+				<h1 id="fancy_title">Graphic Design</h1>
 			<nav class="topper-links">
 				<a href="index.html">Portfolio</a>
 				<a class="current-topper-links" href="about.html">About me</a>
@@ -36,6 +40,13 @@
 			<a href="mailto:mariuspittie@gmail.com?Subject=Web%20portfolio%20Contact" target="_top">Contact</a>
 			<a class="bottom-links" target="_blank" href="https://www.instagram.com/ri_usma/">Instagram</a>
 		</nav>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#fancy_title").lettering();
+			});
+			jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1'});
+			</script>
 
 	</body>
 </html>
